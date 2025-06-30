@@ -28,3 +28,20 @@ Edytuj plik `popup/qa_database.txt`:
 ```plaintext
 Pytanie 1::Odpowiedź 1
 Pytanie 2::Odpowiedź 2
+```
+## Skład technologiczny
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,html,css" alt="Tech Stack">
+  
+  <br>
+  
+  <img src="https://img.shields.io/badge/JavaScript-72.5%25-yellow?style=for-the-badge&logo=javascript" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML-16%25-orange?style=for-the-badge&logo=html5" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-11.5%25-blue?style=for-the-badge&logo=css3" alt="CSS">
+  
+  <br>
+  
+  <!-- Alternatywnie możesz użyć wykresu kołowego -->
+  <img src="https://quickchart.io/chart?c={type:'pie',data:{labels:['JavaScript','HTML','CSS'], datasets:[{data:[72.5,16,11.5]}]}}" alt="Language Distribution">
+</div>
