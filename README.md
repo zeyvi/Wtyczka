@@ -42,6 +42,4 @@ Pytanie 2::Odpowiedź 2
   
   <br>
   
-  <!-- Alternatywnie możesz użyć wykresu kołowego -->
-  <img src="https://quickchart.io/chart?c={type:'pie',data:{labels:['JavaScript','HTML','CSS'], datasets:[{data:[72.5,16,11.5]}]}}" alt="Language Distribution">
 </div>
