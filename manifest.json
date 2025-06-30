@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "AdBlock — najlepszy bloker reklam",
+  "version": "6.71.0",
+  "description": "Blokuj reklamy i wyskakujące okienka na YouTube, Facebook, Twitch i Twoich ulubionych stronach internetowych.Wtyczka do przeszukiwania bazy pytań i odpowiedzi",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/icon16.png"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["storage"],
+  "web_accessible_resources": [
+    {
+      "resources": ["popup/qa_database.txt"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

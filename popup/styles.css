@@ -1,0 +1,92 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  background: #F4F4F4; /* półprzezroczyste tło */
+}
+input {
+  width: 70%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;              /* usuwa czarną obramówkę */
+  outline: none;             /* usuwa obramowanie po kliknięciu */
+  border-radius: 8px;        /* lekko zaokrąglone rogi */
+  background: #ffffff;       /* delikatne tło, opcjonalnie */
+  box-sizing: border-box;    /* zapewnia prawidłowe obliczanie szerokości i wysokości */
+}
+#results {
+  max-height: 200px;
+  overflow-y: auto;
+}
+.question {
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid #ffffff99;
+  
+}
+.question:hover {
+  background: rgba(153, 153, 153, 0.759); /* bardziej przezroczyste */
+}
+#answerContainer {
+  margin-top: 15px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.4); /* bardziej przezroczyste */
+  border-radius: 5px;
+  
+}
+.adblock-title {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+.settings-icon {
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 10;
+  transition: filter 0.2s;
+}
+.settings-icon:hover {
+  filter: brightness(0.7);
+}
+.settings-icon-group {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.help-icon {
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+.help-icon:hover {
+  filter: brightness(0.7);
+}
+/* fragment do umieszczenia obok inputa */
+.flex-container {
+  display: flex;
+  align-items: center;      /* idealne wyśrodkowanie pionowe */
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.close-answer-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 6px;
+  font-size: 2em;
+  color: #bbb;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s, transform 0.2s;
+  align-self: center;
+  position: relative;
+  top: -5px;                /* mocniej przesuwa X w górę */
+}
+.close-answer-btn:hover {
+  color: #e53935;
+  transform: scale(1.18);   /* lekko powiększa X */
+}
+#closeAnswerBtn:focus {
+  outline: none;
+}

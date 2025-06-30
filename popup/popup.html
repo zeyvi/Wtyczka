@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <title>AdB</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px;">
+      <img src="../icons/icon48.png" alt="AdB" style="height: 34px; width: 34px; margin-right: 2px;">
+      <span class="adblock-title" style="font-size: 2em;">
+        <span style="font-weight:bold;">Ad</span>Block
+      </span>
+      <div class="settings-icon-group" style="display: flex; align-items: center; gap: 8px; margin-left: auto;">
+        <!-- Ikona znaku zapytania -->
+        <span class="help-icon" title="Pomoc" style="display: flex; align-items: center; cursor: pointer;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="10" stroke="#bbb" stroke-width="2" fill="none"/>
+            <text x="12" y="17" text-anchor="middle" font-size="14" fill="#bbb" font-family="Arial" font-weight="bold">?</text>
+          </svg>
+        </span>
+        <!-- Zębatka z otworem w środku -->
+        <div class="settings-icon" title="Ustawienia" style="display: flex; align-items: center; cursor: pointer;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="3" fill="none" stroke="#bbb" stroke-width="2"/>
+            <path d="M19.43 12.98c.04-.32.07-.65.07-.98s-.03-.66-.07-.98l2.11-1.65a.5.5 0 0 0 .12-.64l-2-3.46a.5.5 0 0 0-.61-.22l-2.49 1a7.03 7.03 0 0 0-1.7-.98l-.38-2.65A.5.5 0 0 0 13 2h-2a.5.5 0 0 0-.5.42l-.38 2.65c-.63.25-1.21.57-1.76.98l-2.49-1a.5.5 0 0 0-.61.22l-2 3.46a.5.5 0 0 0 .12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65a.5.5 0 0 0-.12.64l2 3.46c.13.23.41.32.61.22l2.49-1c.54.41 1.13.74 1.76.98l.38 2.65A.5.5 0 0 0 11 22h2a.5.5 0 0 0 .5-.42l.38-2.65c.63-.25 1.21-.57 1.76-.98l2.49 1c.2.09.48 0 .61-.22l2-3.46a.5.5 0 0 0-.12-.64l-2.11-1.65z" fill="#bbb"/>
+          </svg>
+        </div>
+        <!-- Ikona trzech kropek w pionie -->
+        <div class="more-icon" title="Więcej opcji" style="display: flex; align-items: center; cursor: pointer;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="5" r="1.5" fill="#bbb"/>
+            <circle cx="12" cy="12" r="1.5" fill="#bbb"/>
+            <circle cx="12" cy="19" r="1.5" fill="#bbb"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="flex-container">
+      <input type="text" id="searchInput" placeholder="Szukaj strone do zablokowania..">
+      <button id="closeAnswerBtn" class="close-answer-btn" title="Ukryj odpowiedź">
+        &times;
+      </button>
+    </div>
+    <div id="results"></div>
+    <div id="answerContainer" style="display: none;">
+      <h3>Reguły</h3>
+      <p id="answerText"></p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+  
+</body>
+</html>
