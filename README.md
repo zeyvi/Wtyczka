@@ -16,7 +16,7 @@ Rozszerzenie Chrome z wyszukiwalną bazą pytań i odpowiedzi w formie przypomin
 
 ## Instalacja
 
-1. Pobierz [najnowszą wersję](https://github.com/yourusername/repo/releases)
+1. Pobierz najnowszą wersję
 2. W Chrome przejdź do `chrome://extensions/`
 3. Włącz **Tryb dewelopera**
 4. Kliknij **Załaduj rozpakowane** i wybierz folder z rozszerzeniem
